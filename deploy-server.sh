@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo 'Reached Port Zaiquiri'
-echo 'Current directory: $(pwd)'
+echo "Reached Port Zaiquiri"
+echo "Current directory: ${pwd}"
 docker load -i images.tar.gz
 
 echo "Create network if it doesn't exist"
