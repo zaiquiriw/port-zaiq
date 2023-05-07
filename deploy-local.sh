@@ -5,7 +5,7 @@ REMOTE_DIR="/home/zaiq/port-zaiq/"
 IMAGES=$(docker compose -f docker-compose.prod.yml config --images)
 
 # Build and save the Docker images
-docker-compose -f $DOCKER_COMPOSE_FILE build
+docker compose -f $DOCKER_COMPOSE_FILE build
 echo "The results of the Build"
 echo $IMAGES
 docker save $IMAGES | gzip > images.tar.gz
