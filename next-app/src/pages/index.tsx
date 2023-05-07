@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Testing Dev Change using Docker Volume
+          Test Deploy Script
         </h1>
 
         <p className={styles.description}>

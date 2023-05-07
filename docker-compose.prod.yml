@@ -3,6 +3,7 @@ version: '3'
 services:
   next-app:
     container_name: next-app
+    image: port-zaiq/next-app
     build:
       context: ./next-app
       dockerfile: prod.Dockerfile
