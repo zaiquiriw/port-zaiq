@@ -1,4 +1,5 @@
 #!/bin/bash
+DOCKER_COMPOSE_FILE="docker-compose.prod.yml"
 
 echo "Reached Port Zaiquiri"
 echo "Current directory: $(pwd)"
