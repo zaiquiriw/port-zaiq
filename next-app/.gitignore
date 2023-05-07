@@ -32,6 +32,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# temp files
-images.tar.gz
