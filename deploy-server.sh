@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo 'Reached Port Zaiquiri'
-cd $REMOTE_DIR
-
 echo 'Current directory: $(pwd)'
 docker load -i images.tar.gz
 
